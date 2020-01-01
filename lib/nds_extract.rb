@@ -47,7 +47,8 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   director_names = list_of_directors(source)
-  directors_totals(source[director_names])
+  director_earnings = directors_totals(source)
+  director_earnings["Stephen Spielberg"]
 
 
 #  total = 0
