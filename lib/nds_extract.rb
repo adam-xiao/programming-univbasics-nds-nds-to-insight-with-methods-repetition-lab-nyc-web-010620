@@ -48,7 +48,7 @@ def total_gross(source)
   # return the total
   director_all = directors_totals(source)
 
-
+  director_all[0]
 
 
 #  total = 0
